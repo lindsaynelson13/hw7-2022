@@ -65,7 +65,7 @@ document.querySelector("#slider").addEventListener("click", function() {
 	console.log("The current volume is " + video.volume)
 	video.volume = this.value / 100
 	console.log("The current volume is " + video.volume)
-	document.querySelector("#volume").innnerHTML = video.volume * 100 + "%"
+	document.querySelector("#volume").innerHTML = video.volume * 100 + "%"
 });
 
 /* Styled */
@@ -79,5 +79,4 @@ document.querySelector("#orig").addEventListener("click", function() {
 	video.classList.remove("oldSchool");
 	console.log("Remove oldSchool Class");
 });
-
 
